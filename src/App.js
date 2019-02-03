@@ -13,7 +13,7 @@ export default class App extends Component {
     .then(response=>response.json())
     .then(({people}) => this.setState({peopleInSpace : people}))
   }
-  
+
   render() {
     return (
       <div>
